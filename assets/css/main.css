@@ -2175,7 +2175,6 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -2282,7 +2281,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				/* margin-left: 300px; */
 			}
 
 		/* Main */
@@ -2365,7 +2364,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				/* margin-left: 20%; */
 			}
 
 		/* Main */
