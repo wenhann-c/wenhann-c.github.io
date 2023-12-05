@@ -2630,3 +2630,9 @@ input, select, textarea {
 				}
 
 	}
+
+	@media screen and (max-width: 600px) {	  
+	   iframe {
+		 width: 380px;
+	   }
+	  }
