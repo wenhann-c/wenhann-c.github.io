@@ -5,7 +5,7 @@
   }
   .timeline::before {
     content: "";
-    background: #C5CAE9;
+    background: #C0C0C0;
     width: 5px;
     height: 95%;
     position: absolute;
@@ -17,6 +17,12 @@
     width: 100%;
     margin-bottom: 70px;
   }
+
+  .timeline-item:nth-child(odd) .timeline-content {
+    float: left;
+    padding: 40px 30px 10px 30px;
+  }
+
   .timeline-item:nth-child(even) .timeline-content {
     float: right;
     padding: 40px 30px 10px 30px;
@@ -65,7 +71,7 @@
   .timeline-img {
     width: 30px;
     height: 30px;
-    background: #3F51B5;
+    background: #2F4F4F;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -83,17 +89,42 @@
     margin-left: 20px;
   }
   
-  .timeline-item .timeline-img-header {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("/images/pic05.jpg") center center no-repeat;
+  .timeline-item .timeline-img-header1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("klcc.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("18.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("germany.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header4 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("warehouse.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header5 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("rejected.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header6 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("rocket.jpg") center center no-repeat;
     background-size: cover;
   }
   
-  .timeline-img-header {
+  .timeline-img-header1, .timeline-img-header2, .timeline-img-header3, .timeline-img-header4, .timeline-img-header5, .timeline-img-header6 {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
   }
-  .timeline-img-header h2 {
+  .timeline-img-header1 h2, .timeline-img-header2 h2, .timeline-img-header3 h2, .timeline-img-header4 h2, .timeline-img-header5 h2, .timeline-img-header6 h2 {
     color: #FFFFFF;
     position: absolute;
     bottom: 5px;
@@ -101,7 +132,7 @@
   }
   
   .date {
-    background: #FF4081;
+    background: #000080;
     display: inline-block;
     color: #FFFFFF;
     padding: 10px;
