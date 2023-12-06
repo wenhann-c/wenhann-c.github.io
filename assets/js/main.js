@@ -118,6 +118,6 @@
 					side: 'left',
 					target: $body,
 					visibleClass: 'header-visible'
-				});
+				});	
 
 })(jQuery);
