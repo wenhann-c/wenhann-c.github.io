@@ -118,13 +118,23 @@
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("rocket.jpg") center center no-repeat;
     background-size: cover;
   }
+
+  .timeline-item .timeline-img-header7 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("auxmoney.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .timeline-item .timeline-img-header8 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("deutschlandstipendium.jpg") center center no-repeat;
+    background-size: cover;
+  }
   
-  .timeline-img-header1, .timeline-img-header2, .timeline-img-header3, .timeline-img-header4, .timeline-img-header5, .timeline-img-header6 {
+  .timeline-img-header1, .timeline-img-header2, .timeline-img-header3, .timeline-img-header4, .timeline-img-header5, .timeline-img-header6, .timeline-img-header7, .timeline-img-header8 {
     height: 200px;
     position: relative;
     margin-bottom: 20px;
   }
-  .timeline-img-header1 h2, .timeline-img-header2 h2, .timeline-img-header3 h2, .timeline-img-header4 h2, .timeline-img-header5 h2, .timeline-img-header6 h2 {
+  .timeline-img-header1 h2, .timeline-img-header2 h2, .timeline-img-header3 h2, .timeline-img-header4 h2, .timeline-img-header5 h2, .timeline-img-header6 h2, .timeline-img-header7 h2, .timeline-img-header8 h2 {
     color: #FFFFFF;
     position: absolute;
     bottom: 5px;
