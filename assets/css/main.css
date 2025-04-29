@@ -2633,6 +2633,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 600px) {	  
 	   iframe {
-		 width: 380px;
+		 width: 338px;
+		 height: 400px;
 	   }
 	  }

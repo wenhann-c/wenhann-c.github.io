@@ -153,16 +153,22 @@
   
   @media screen and (max-width: 768px) {
     .timeline::before {
-      left: 50px;
+      left: 0px;
     }
     .timeline .timeline-img {
-      left: 50px;
+      left: 0px;
     }
     .timeline .timeline-content {
       max-width: 100%;
       width: auto;
-      margin-left: 70px;
+      margin-left: 0px;
     }
+
+	.timeline .timeline-item {
+		width: 330px;
+		height: 100%;
+	}
+
     .timeline .timeline-item:nth-child(even) .timeline-content {
       float: none;
     }
